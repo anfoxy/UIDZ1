@@ -1,0 +1,27 @@
+table {
+    margin: auto;
+    border: 1px solid #8492bb;
+}
+th {
+    font-weight: normal;
+    color: #039;
+    padding: 10px 15px;
+}
+td {
+    color: #669;
+    border-top: 1px solid #8492bb;
+    padding: 10px 15px;
+}
+
+tr.rt {
+    text-align : center;
+    font-weight: normal;
+    background-color: #dfdfee;
+    padding: 10px 15px;
+}
+
+
+img {
+    width: 250px;
+    height:250px
+}
