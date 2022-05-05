@@ -1,6 +1,9 @@
+
 table {
     margin: auto;
-    border: 1px solid #8492bb;
+    border: 3px solid #8492bb;
+    border-collapse: separate;
+    border-spacing: 10px 20px;
 }
 th {
     font-weight: normal;
@@ -14,13 +17,26 @@ td {
 }
 
 tr.rt {
+    background: radial-gradient(circle farthest-corner at 100px 50px, #ccd8ee, #a9bfde);
     text-align : center;
     font-weight: normal;
-    background-color: #dfdfee;
     padding: 10px 15px;
 }
 
+tr:nth-child(2n).el {
+    background: #f2f2f8;
+}
 
+tr.em {
+    text-align : center;
+    font-weight: normal;
+    padding: 10px 15px;
+}
+
+tr:hover td {
+
+    color: #7b91ee;
+}
 img {
     width: 250px;
     height:250px
